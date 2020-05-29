@@ -8,10 +8,7 @@ char* Worker::GetName()
 	return name;
 }
 
-//char* Worker::GetName()
-//{
-//	return nullptr;
-//}
+
 
 int Worker::GetStartYear()
 {
@@ -84,7 +81,7 @@ void Department::SerchWorkerByName(const char* name) const
 
 double Department::GetAverageSalary()
 {
-	double suma;
+	double suma=0;
 	for (int i = 0; i < workersCount; i++) {
 		suma += workers[i].GetSalary();
 	}
@@ -105,7 +102,7 @@ void Department::SerchByExperience(const int exp) const
 {
 	for (int i = 0; i < workersCount; i++) {
 		int currentYear = 2020;
-		if ((currentYear - workers[i].GetStartYear) > exp) {
+		if ((currentYear - workers[i].GetStartYear()) > exp) {
 			workers[i].PrintFullInfo();
 		}
 	}

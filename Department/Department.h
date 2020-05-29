@@ -16,7 +16,7 @@ class Worker
 	char name[50];
 	int startYear;
 	double salary;
-	WorkerType type; // 0-admin 1-prog 2-designer
+	WorkerType type; 
 
 public:
 	Worker()

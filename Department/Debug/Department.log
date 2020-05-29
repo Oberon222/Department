@@ -1,3 +1,2 @@
-﻿  Department.cpp
-C:\Users\pavel\source\repos\Department\Department\Department.cpp(108,6): error C3867: 'Worker::GetStartYear': non-standard syntax; use '&' to create a pointer to member
-C:\Users\pavel\source\repos\Department\Department\Department.cpp(108,6): error C2297: '-': illegal, right operand has type 'int (__thiscall Worker::* )(void)'
+﻿  Source.cpp
+  Department.vcxproj -> C:\Users\pavel\source\repos\Department\Debug\Department.exe
